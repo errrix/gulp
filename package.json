@@ -1,0 +1,32 @@
+{
+  "name": "newgulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp start",
+    "build": "gulp prod --production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.2",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-watch": "^5.0.1",
+    "jquery": "^3.3.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "browser-sync": "^2.24.7",
+    "clean-css": "^4.2.1",
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.1",
+    "webpack-stream": "^5.1.1"
+  }
+}
